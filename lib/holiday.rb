@@ -63,7 +63,6 @@ def all_supplies_in_holidays(holiday_hash)
        # binding.pry
       puts "  #{event.to_s.split("_").map {|x| x.capitalize}.join(" ")}: 
       #{supplies.join(", ")}"
-      end 
     end
   end 
 end
